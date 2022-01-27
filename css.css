@@ -1,0 +1,48 @@
+*{
+    background-color: aqua;
+}
+.flex-box1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+.flex-box1 button{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}button:hover{
+    background-color: yellow;
+    color: red;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+body{
+    border: 1px solid black;
+    width: 75%;
+    margin: 20px auto;
+    font-family: 'Open Sans',sans-serif;
+
+}
+h1{
+    text-align: center;
+    color:blue;
+}.screen{
+    border: 1px solid black;
+    height: 50px;
+}
+#equal{
+    background-color: blue;
+    color: red;
+}
+#clear{
+    background-color: red;
+    color: blue;
+}

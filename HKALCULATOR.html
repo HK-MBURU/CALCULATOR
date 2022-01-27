@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>HKALCULATOR</h1>
+    <div id="screen" class="screen">    </div>
+    <div class=flex-box1 id=no>
+        <button class="numbers" id="one" onclick="displaying()">1</button>
+        <button class="numbers" onclick="displaying()"> 2</button>
+        <button class="numbers" onclick="displaying()">3 </button>
+        <button class="numbers" onclick="displaying()"> 4</button>
+        <button class="numbers" onclick="displaying()"> 5</button>
+        <button class="numbers" onclick="displaying()"> 6</button>
+        <button class="numbers" onclick="displaying()"> 7</button>
+        <button class="numbers" onclick="displaying()"> 8</button>
+        <button class="numbers" onclick="displaying()"> 9</button>
+        <button class="numbers" onclick="displaying()"> 0</button>
+        <button class="operator" onclick="displaying()"> +</button>
+        <button class="operator" onclick="displaying()"> -</button>
+        <button class="operator" onclick="displaying()">/ </button>
+        <button class="operator" onclick="displaying()">&times;</button>
+        <button class="numbers" id="clear" onclick="displaying()">Clear </button>
+        <button class="operator" id="equal" onclick="displaying()">ANS</button>
+
+    </div>
+    <script>
+        var a=document.getElementById
+        var screen=document.getElementById("screen");
+        
+        function displaying(){
+            var one=document.getElementById("one");
+            screen.innerHTML=1 + 1;
+        }
+        
+    </script>
+    
+    
+</body>
+</html>
